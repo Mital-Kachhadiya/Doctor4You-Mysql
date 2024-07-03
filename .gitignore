@@ -1,0 +1,5 @@
+apis/node_modules
+apis/public
+apis/config
+backend/node_modules
+backend/build*

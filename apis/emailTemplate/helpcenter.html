@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Issue Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Customer Issue Report</h2>
+
+    <p>Hello Team,</p>
+
+    <p>A customer has reported the following issue:</p>
+
+    <table>
+        <tr>
+            <th>Customer Name</th>
+            <td>{{username}}</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>{{useremail}}</td>
+        </tr>
+        <tr>
+            <th>Mobile Number</th>
+            <td>{{usermo}}</td>
+        </tr>
+        <tr>
+            <th>Issue Description</th>
+            <td>{{question}}</td>
+        </tr>
+    </table>
+
+    <p>Please review and take appropriate action to address the customer's concern as soon as possible.</p>
+
+    <p>Thank you.</p>
+</body>
+
+</html>

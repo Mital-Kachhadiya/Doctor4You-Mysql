@@ -1,0 +1,430 @@
+// Here you can add other styles
+.login-bg {
+  background: url('../assets/images/bg-4.jpg') no-repeat;
+  background-size: cover;
+}
+
+.header-logo-subtitle {
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+}
+.header-logo {
+  padding-right: 4px;
+}
+.sidebar-nav .nav-link.active,
+.sidebar-nav .nav-link:hover {
+  color: white;
+  background: #0098998c;
+}
+.sidebar-nav .nav-link {
+  color: white;
+  background: #009899;
+}
+.sidebar-brand {
+  color: #009899;
+  background: #00989900;
+}
+.sidebar-toggler {
+  background-color: #009899;
+}
+.sidebar {
+  --cui-sidebar-bg: #00989926;
+}
+.sidebar-toggler:hover {
+  background-color: #009899;
+}
+.theme-color {
+  color: #009899;
+}
+.breadcrumb-item.active {
+  color: #009899;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+.theme-background {
+  background: #009899;
+}
+.theme-btn-background {
+  background: #009899;
+  border-color: #009899;
+  color: white;
+}
+.theme-btn-background:hover {
+  background: #009899;
+  border-color: #009899;
+  color: white;
+}
+.theme-spinner-color {
+  color: #009899 !important;
+}
+.css-18lrjg1-MuiCircularProgress-root {
+  color: #009899 !important;
+}
+.sign-up-btn {
+  border-color: white !important;
+  color: white !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.forgot-link {
+  color: grey;
+  text-decoration: none;
+  text-align: right;
+}
+
+.forgot-link:hover {
+  color: #009899;
+}
+.error-msg {
+  color: red;
+  font-weight: 400;
+}
+
+.success-msg {
+  color: green;
+  font-weight: 400;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.form-label {
+  font-size: 14px;
+}
+.left-text {
+  text-align: left !important;
+}
+.right-text {
+  text-align: right !important;
+}
+.custom-header {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .name-header {
+    display: none;
+  }
+}
+.theme-btn {
+  background-color: #009899;
+  border-color: #009899;
+}
+.theme-btn:hover {
+  background-color: #0098998c;
+  border-color: #0098992e;
+}
+.mt-minus-10 {
+  margin-top: -10px;
+}
+.d-fex {
+  display: flex;
+}
+.img-preview {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  margin-left: 20px;
+  border: 1px solid #80808057;
+}
+.form-header {
+  font-weight: bold;
+  background: #8080803d;
+  padding: 12px;
+}
+.app-header {
+  font-weight: bold;
+  background: rgba(0, 152, 153, 0.7294117647);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.appdetail-div {
+  padding: 12px;
+  background: rgb(128 128 128 / 9%);
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.ml-12 {
+  margin-left: 12px;
+}
+.mtop-5 {
+  margin-top: 5px;
+}
+@media (max-width: 469px) {
+  .mt-60 {
+    margin-top: 105px;
+  }
+}
+.form-check-input:checked {
+  background-color: #009899;
+  border-color: #009899 !important;
+}
+.shift-div {
+  border: 1px solid #8080803d;
+  border-radius: 20px;
+  padding: 21px;
+  text-align: center;
+}
+.morning_div {
+  border-top: 1px solid #8080804a;
+  padding-top: 12px;
+}
+.evening_div {
+  border-top: 1px solid #8080804a;
+  padding-top: 12px;
+}
+.display-flex {
+  display: flex;
+}
+@media (max-width: 420px) {
+  .display-flex {
+    display: block;
+  }
+  .ml-12 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .MuiTableHead-root {
+    display: none !important;
+  }
+  .MuiTableCell-sizeMedium {
+    display: inline-block !important;
+  }
+  .MuiTableCell-paddingCheckbox {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 426px) {
+  .tss-1vd39vz-MUIDataTableBodyCell-stackedCommon {
+    font-size: 10px !important;
+  }
+}
+
+html:not([dir='rtl']) .sidebar-nav .nav-group-items .nav-link {
+  background: #009899ba;
+  font-size: 14px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.sidebar-nav .nav-link {
+  box-shadow: 0px 0px 3px 2px lightblue;
+}
+.nav-group-items .nav-item .nav-link {
+  box-shadow: none;
+}
+
+.btn-check:checked + .btn,
+:not(.btn-check) + .btn:active,
+.btn:first-child:active,
+.btn.active,
+.btn.show {
+  background-color: rgba(0, 152, 153, 0.5490196078) !important;
+  border-color: rgba(0, 152, 153, 0.1803921569) !important;
+}
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:active a {
+  background-color: #009899 !important;
+  border-color: #009899 !important;
+  color: white;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 2px 14px 7px !important;
+}
+.date-label {
+  margin-bottom: 13px;
+}
+.pending_app {
+  color: #f9b115;
+}
+.completed_app {
+  color: green;
+}
+.cancelled_app {
+  color: #ff0000e0;
+}
+.deleteIcon {
+  color: #ff5733;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0px 6px;
+  font-size: 30px !important;
+  padding: 4px;
+}
+.editIcon {
+  color: #6495ed;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0px 6px;
+  font-size: 30px !important;
+  padding: 4px;
+}
+.completedIcon {
+  color: green;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0px 6px;
+  font-size: 30px !important;
+  padding: 4px;
+}
+
+.viewIcon {
+  color: rgb(24, 152, 187);
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0px 6px;
+  font-size: 30px !important;
+  padding: 4px;
+}
+
+.MuiTableCell-head,
+.MuiTableCell-paddingCheckbox {
+  padding-left: 0px !important;
+}
+
+.MuiTableCell-head {
+  background: #8080802e !important;
+  border-bottom: 0.5px solid rgb(128 128 128 / 47%) !important;
+  border-top: 0.5px solid rgb(128 128 128 / 47%) !important;
+}
+.MuiFormControlLabel-root {
+  margin-left: 0px !important;
+}
+.appointment-header {
+  background: #009899;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.app_complete_style {
+  padding: 12px;
+  text-align: end;
+  font-size: 21px;
+  color: green;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.app_cancel_style {
+  padding: 12px;
+  text-align: end;
+  font-size: 21px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.app_pending_style {
+  padding: 12px;
+  text-align: end;
+  font-size: 21px;
+  color: #f9b115;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.accordion-body {
+  background-color: #00989936;
+}
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: #009899;
+  font-weight: 500;
+}
+.appdatediv {
+  background: #009899;
+  padding: 12px;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+.apppaysuccessdiv {
+  background: green !important;
+}
+.apppayfaildiv {
+  background: #e1595947 !important;
+  color: black;
+}
+.starStyle {
+  color: #d1c217;
+  height: 20px !important;
+  width: 20px !important;
+  margin: 2px;
+}
+.dr_img {
+  width: 200px;
+  height: 200px;
+}
+.dr_header_bg {
+  background: #009899;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #009899;
+  text-transform: uppercase;
+}
+.left-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+}
+.mr-8 {
+  margin-right: 8px;
+}
+.f-12 {
+  font-size: 12px;
+}
+.theme-bg {
+  background-color: #009899;
+  color: white;
+}
+.white-btn-background,
+.white-btn-background :hover {
+  background-color: white !important;
+  border-color: white !important;
+  color: #009899 !important;
+}
+.revenue-text {
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1550px !important;
+  }
+}
+.wallet-div {
+  background: #009899;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px 5px;
+}
